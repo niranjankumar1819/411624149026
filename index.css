@@ -1,0 +1,136 @@
+p{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+h1{
+    padding: 20px;
+    border: 20px solid green;
+    margin: 20px;
+}
+
+img{
+    height: auto;
+    width: 100px;
+    background-color: aliceblue;
+    padding: 50px;
+}
+
+video{
+    height: auto;
+    width: 100%;
+}
+
+.imgvideo{
+    background-color: aliceblue;
+    padding:20px;
+}
+
+#p1{
+    font-weight:600;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+ol{
+    list-style-type: upper-roman;
+}
+ul{
+    list-style-type: none;
+}
+table, td, th{
+    border: 1px solid teal;
+    border-collapse: collapse ;
+}
+th{
+    background-color: aqua;
+
+}
+button{
+    background-color: burlywood;
+    border-radius: 500px;
+    padding: 10px;
+    margin:20px;
+}
+button:hover{
+    background-color: plum;
+}
+h1:hover{
+    background-color: rgb(201, 221, 160);
+}
+form{
+    height: 1000px;
+    width: 60%;
+    background-color: powderblue;
+    padding: 50px;
+    border-radius: 100px ;
+}
+.grid{
+    display: grid;
+    width: 100%;;
+    grid-template-rows: 33% 33% 33%;
+}
+#one{
+    grid-row: 1/2;
+    background-color: aquamarine;
+    height: 50px;
+    grid-template-columns: 18% 19%;
+}
+#two{
+    grid-row: 1/2;
+    background-color: azure;
+    height: 50px;
+    grid-template-columns: 18% 19%;
+}
+#three{
+    grid-row: 1/2;
+    background-color: bisque;
+    height: 50px;
+    grid-template-columns: 18% 19%;
+}
+#four{
+    grid-row: 1/2;
+    background-color: springgreen;
+    height: 50px;
+    grid-template-columns: 18% 19%;
+}
+#five{
+    grid-row: 1/2;
+    background-color: slategrey;
+    height: 50px;
+    grid-template-columns: 18% 19%;
+}
+#six{
+    grid-row: 1/2;
+    background-color: silver;
+    height: 50px;
+    grid-template-columns: 18% 19%;
+}
+.festivals{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+/* @media(min-width: 1024px){
+    img{
+        height: 500px;
+        width: 500px;
+        background-color: aquamarine;
+    } */
+/* } */
+@media (min-width: 1024px){
+    nav{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+    }
+}
+nav{
+    display: flex;
+    flex-direction: column;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
