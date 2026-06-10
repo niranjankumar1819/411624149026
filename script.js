@@ -20,3 +20,7 @@ const output = document.getElementById("Ptag")
 input.addEventListener("input", ()=>{
     output.textContent = input.value
 })
+const newvar = document.createElement("P");
+newvar.textContent = "New paragraph";
+document.body.appendChild(newvar);
+newvar.remove()
