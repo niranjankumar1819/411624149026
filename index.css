@@ -119,18 +119,15 @@ form{
         background-color: aquamarine;
     } */
 /* } */
-@media (min-width: 1024px){
+@media(min-width: 1024px){
     nav{
         display: flex;
         flex-direction: row;
         gap: 50px;
-    }
-}
-nav{
-    display: flex;
-    flex-direction: column;
-}
-.grid{
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
+    }    
+
+    .grid{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+    }    
 }
